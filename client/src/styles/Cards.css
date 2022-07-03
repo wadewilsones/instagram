@@ -1,0 +1,273 @@
+
+.cards{
+    margin-top: 20em;
+}
+#card{
+    background-color: white;
+
+}
+
+/*SMARTPHONE*/
+@media screen and (min-width:320px) and (max-width:599px){
+    .cards{
+
+        width:100%;
+        margin: 2em auto;
+        font-family: Roboto, Helvetica, sans-serif;
+    }
+
+    #card{
+        width:100%;
+        margin: 2em auto;
+    }
+    #user_icon_img{
+        width:50px;
+        height: 50px;
+    }
+    
+    #card_user{
+        padding: 20px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    #card_user img{
+        margin-right: 10px;
+        width:50px;
+        object-fit: cover;
+        border-radius: 50px;
+        height: 50px;
+    }
+    #card_img img{
+        width:100%;
+        height: 500px;
+        object-fit: cover;
+        display: block;
+        margin:auto;
+    }
+    
+    #card_likes{
+        padding: 20px 0 0 20px;
+        font-weight: 500;
+        font-size: 0.9em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .fa-comment-o{
+        font-size:40px;
+    }
+
+    #card_likes p{
+        margin-left: 10px;
+    }
+
+    
+    #card_descr{
+
+        padding: 20px;
+    }
+    
+    #card_descr span{
+        font-weight: 500;
+    }
+
+    #post_comment input[type = "text"]{
+        width:80%;
+        font-size: 1em;
+        padding: 20px;
+    }
+
+    #post_comment input[type = "text"]:focus{
+        outline: none;
+    }
+
+    #post_comment input[type = "submit"]{
+        background-color: transparent;
+        font-size:1.2em;
+        margin-right: 10px;
+        color:rgb(0, 140, 255);
+    }
+    
+}
+
+/*TABLET*/
+@media screen and (min-width:600px) and (max-width:900px){
+    .cards{
+
+        max-width:550px;
+        margin: 2em auto;
+        font-family: Roboto, Helvetica, sans-serif;
+    }
+
+    #card{
+        margin: 2em auto;
+        padding: 0 0 2em;
+        border-radius: 20px;
+        border:0.1em solid rgb(186, 186, 186);
+    }
+    
+    #card_user{
+        padding: 20px;
+        padding-left: 20px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+    }
+
+    #card_user img{
+        margin-right: 10px;
+        width:50px;
+        object-fit: cover;
+        border-radius: 50px;
+        height: 50px;
+    }
+    
+    #card_img img{
+        width:550px;
+        height: 550px;
+        object-fit: cover;
+        display: block;
+        margin:auto;
+    }
+    
+    #card_likes{
+        padding: 20px;
+        font-weight: 500;
+        font-size: 1em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .fa-comment-o{
+        font-size:40px;
+    }
+
+    #card_likes p {
+        margin-left: 10px;
+    }
+    
+    #card_descr{
+        padding-left: 20px;
+    }
+    
+    #card_descr span{
+        font-weight: 500;
+    }
+
+    #post_comment input[type = "text"]{
+        width:80%;
+        font-size: 1em;
+        padding: 20px;
+    }
+
+    #post_comment input[type = "text"]:focus{
+        outline: none;
+    }
+
+    #post_comment input[type = "submit"]{
+        background-color: transparent;
+        font-size:1.2em;
+        margin-right: 10px;
+        color:rgb(0, 140, 255);
+    }
+    
+}
+
+/*DESKTOP*/
+@media screen and (min-width:901px){
+    .cards{
+
+        width:600px;
+        margin: 2em auto;
+        font-family: Roboto, Helvetica, sans-serif;
+    }
+
+    #card{
+        padding: 0 0 2em;
+        margin: 2em auto;
+        padding: 2em 0;
+        border-radius: 20px;
+        border:0.1em solid rgb(186, 186, 186);
+    }
+    
+    #card_user{
+        font-weight: 500;
+        padding: 0 20px 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #card_user img{
+        margin-right: 10px;
+        width:50px;
+        object-fit: cover;
+        border-radius: 50px;
+        height: 50px;
+    }
+
+    #card_img img{
+        width:100%;
+        height: 500px;
+        object-fit: cover;
+        display: block;
+        margin:auto;
+    }
+    
+    #card_likes{
+        padding: 20px;
+        font-weight: 500;
+        font-size: 1em;
+        display: flex;
+        align-items: center;
+    }
+
+    .fa-comment-o{
+        font-size:24px;
+    }
+    
+    #card_likes p {
+        margin-left: 5px;
+    }
+
+    #card_descr{
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    
+    #card_descr span{
+        font-weight: 500;
+    }
+
+    #post_comment{
+
+        padding-top: 10px;
+        border-top: 1px solid rgba(222, 213, 213, 0.378);
+    }
+
+    #post_comment input[type = "text"]{
+        width:85%;
+        font-size: 1em;
+        padding-top: 10px;
+        padding-left:20px ;
+    }
+
+    #post_comment input[type = "text"]:focus{
+        outline: none;
+    }
+
+    #post_comment input[type = "submit"]{
+        background-color: transparent;
+        font-size:1.2em;
+        margin-right: 10px;
+        color:rgb(0, 140, 255);
+    }
+
+
+    
+}
+
+
